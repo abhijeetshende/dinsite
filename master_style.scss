@@ -1,0 +1,10 @@
+.master{
+    background: tan;
+}
+.di-widgets{
+    cursor: pointer;
+}
+.main-content-height-fix{
+    max-height: calc(100vh - 100px);
+    overflow-y: scroll;
+}

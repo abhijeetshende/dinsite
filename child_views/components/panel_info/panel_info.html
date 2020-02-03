@@ -1,0 +1,31 @@
+<div class="col">
+        <div class="card shadow mb-4" >
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">{{paneldata.label}}</h6>
+            </div>
+            <div class="card-body  di-widget-height-fix">
+                <div class="table-responsive">
+                    <table class="table table-bordered" width="100%"
+                        cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Parameter</th>
+                                <th>Value</th>
+                                <th>Engg Unit</th>
+
+                            </tr>
+                        </thead>
+  
+                        <tbody>
+                           
+                            <tr ng-repeat="row in paneldata.data">
+                                    <th>{{row.Parameter}}</th>
+                                    <th>{{row.Value}}</th>
+                                    <th>{{row.EnggUnit}}</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
