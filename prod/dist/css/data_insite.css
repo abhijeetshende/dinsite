@@ -1,0 +1,26 @@
+.master {
+  background: tan; }
+
+.di-widgets {
+  cursor: pointer; }
+
+.main-content-height-fix {
+  max-height: calc(100vh - 100px);
+  overflow-y: scroll; }
+
+.dgrooms {
+  background: red; }
+
+.ltpanels {
+  background: red; }
+
+.di-widget-height-fix {
+  max-height: 400px;
+  overflow-y: scroll; }
+
+.plant-name {
+  font-size: small; }
+
+.sidebar .list-group-item {
+  background-color: #4e73df;
+  color: #fff; }

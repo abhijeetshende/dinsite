@@ -1,0 +1,178 @@
+{
+    "data": [
+        {
+            "tagid": "321",
+            "info_label": "VoltagePhase-RY",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "322",
+            "info_label": "VoltagePhase-R",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "323",
+            "info_label": "VoltagePhase-YB",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "324",
+            "info_label": "VoltagePhase-Y",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "325",
+            "info_label": "VoltagePhase-BR",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "326",
+            "info_label": "VoltagePhase-B",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "327",
+            "info_label": "CurrentPhase-R",
+            "info_value": 1,
+            "info_unit": "Amp"
+        },
+        {
+            "tagid": "328",
+            "info_label": "CurrentPhase-Y",
+            "info_value": 1,
+            "info_unit": "Amp"
+        },
+        {
+            "tagid": "329",
+            "info_label": "CurrentPhase-B",
+            "info_value": 1,
+            "info_unit": "Amp"
+        },
+        {
+            "tagid": "330",
+            "info_label": "ActivePowerPhase-R",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "331",
+            "info_label": "ReactivePowerPhase-R",
+            "info_value": 1,
+            "info_unit": "Var"
+        },
+        {
+            "tagid": "332",
+            "info_label": "ApparentPowerPhase-R",
+            "info_value": 1,
+            "info_unit": "Var"
+        },
+        {
+            "tagid": "333",
+            "info_label": "ActivePowerPhase-Y",
+            "info_value": 1,
+            "info_unit": "Watt"
+        },
+        {
+            "tagid": "334",
+            "info_label": "ReactivePowerPhase-Y",
+            "info_value": 1,
+            "info_unit": "Var"
+        },
+        {
+            "tagid": "335",
+            "info_label": "ApparentPowerPhase-Y",
+            "info_value": 1,
+            "info_unit": "Var"
+        },
+        {
+            "tagid": "336",
+            "info_label": "ActivePowerPhase-B",
+            "info_value": 1,
+            "info_unit": "Watt"
+        },
+        {
+            "tagid": "337",
+            "info_label": "ReactivePowerPhase-B",
+            "info_value": 1,
+            "info_unit": "Var"
+        },
+        {
+            "tagid": "338",
+            "info_label": "ApparentPowerPhase-B",
+            "info_value": 1,
+            "info_unit": "Var"
+        },
+        {
+            "tagid": "339",
+            "info_label": "PowerFactorPhase-R",
+            "info_value": 1,
+            "info_unit": "PF"
+        },
+        {
+            "tagid": "340",
+            "info_label": "PowerFactorPhase-Y",
+            "info_value": 1,
+            "info_unit": "PF"
+        },
+        {
+            "tagid": "341",
+            "info_label": "PowerFactorPhase-B",
+            "info_value": 1,
+            "info_unit": "PF"
+        },
+        {
+            "tagid": "342",
+            "info_label": "LineFrequency",
+            "info_value": 1,
+            "info_unit": "Hz"
+        },
+        {
+            "tagid": "343",
+            "info_label": "Energy",
+            "info_value": 1,
+            "info_unit": "KWh"
+        },
+        {
+            "tagid": "344",
+            "info_label": "vTHDPhase-R",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "345",
+            "info_label": "iTHDPhase-R",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "346",
+            "info_label": "vTHDPhase-Y",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "347",
+            "info_label": "iTHDPhase-Y",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "348",
+            "info_label": "vTHDPhase-B",
+            "info_value": 1,
+            "info_unit": "Volt"
+        },
+        {
+            "tagid": "349",
+            "info_label": "iTHDPhase-B",
+            "info_value": 1,
+            "info_unit": "Volt"
+        }
+    ]
+}
