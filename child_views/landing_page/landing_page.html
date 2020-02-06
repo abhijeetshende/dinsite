@@ -1,40 +1,66 @@
-<!-- Page Heading -->
-<div class="d-sm-flex align-items-center justify-content-between mb-4">
-    <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+<div class="row">
 
-</div>
-<!-- Page END Heading -->
-
-<div class="row" >
-    
-        <div class="col-xl-3 col-md-6 mb-4" >
-            <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body di-widgets" ui-sref="dgroom" >
-                    <div class="row no-gutters align-items-center ">
-                        <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800">DG Room</div>
-                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1 " >More info</div>
-                        </div>
-                        <div class="col-auto">
-                            <i class="fas fa-tachometer-alt fa-2x text-gray-300"></i>
-                        </div>
-                    </div>
+    <div class="col-12">
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Dashboard </h1>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary"> {{dgroom_data.name}}</h6>
+            </div>
+            <div class="card-body  di-widget-height-fix">
+                <div class="table-responsive">
+                    <table class="table table-bordered" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Value</th>
+                                <th>Unit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="row in dgroom_data.H4">
+                                <th data-toggle="tooltip" data-placement="top" title="{{row.Description}}">
+                                    {{row.name}}
+                                </th>
+                                <th>{{row.Value}}</th>
+                                <th>{{row.Unit}}</th>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
-        <div class="col-xl-3 col-md-6 mb-4" >
-            <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body di-widgets" ui-sref="ltpanels">
-                    <div class="row no-gutters align-items-center">
-                        <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800">LT Panel</div>
-                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">More Info</div>
-                        </div>
-                        <div class="col-auto">
-                            <i class="fas fa-tachometer-alt fa-2x text-gray-300"></i>
-                        </div>
-                    </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary"> {{ltroom_data.name}}</h6>
+            </div>
+            <div class="card-body  di-widget-height-fix">
+                <div class="table-responsive">
+                    <table class="table table-bordered" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Value</th>
+                                <th>Unit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="row in ltroom_data.H4">
+                                <th data-toggle="tooltip" data-placement="top" title="{{row.Description}}">
+                                    {{row.name}}
+                                </th>
+                                <th>{{row.Value}}</th>
+                                <th>{{row.Unit}}</th>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
+    </div>
 </div>
