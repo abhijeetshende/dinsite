@@ -52,8 +52,11 @@ function thirdPartyDeps() {
 
 
 
+  var angularchartjs = gulp.src('./node_modules/angular-chart.js/dist/**/*')
+    .pipe(gulp.dest('./prod/dist/angular-chart.js/'));
+
   var bootstrapJS = gulp.src('./node_modules/bootstrap/dist/js/*')
-    .pipe(gulp.dest('./prod/dist/bootstrap/js'));
+  .pipe(gulp.dest('./prod/dist/bootstrap/js'));
   var bootstrapSCSS = gulp.src('./node_modules/bootstrap/scss/**/*')
     .pipe(gulp.dest('./prod/dist/bootstrap/scss'));
   var chartJS = gulp.src('./node_modules/chart.js/dist/*.js')
@@ -89,7 +92,7 @@ function thirdPartyDeps() {
     .pipe(gulp.dest('./prod/dist/'));
  
 
-  return merge(bootstrapJS, bootstrapSCSS, chartJS, dataTables, fontAwesome, jquery, jqueryEasing, angularjs, angular_ui_router,theme_src,angulardatatable);
+  return merge(angularchartjs,bootstrapJS, bootstrapSCSS, chartJS, dataTables, fontAwesome, jquery, jqueryEasing, angularjs, angular_ui_router,theme_src,angulardatatable);
 }
 
 

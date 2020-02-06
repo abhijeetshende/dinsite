@@ -21,7 +21,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr ng-repeat="row in dgroom_data.H4">
+                            <tr ng-repeat="row in dgroom_data.H4[0].H5">
                                 <th data-toggle="tooltip" data-placement="top" title="{{row.Description}}">
                                     {{row.name}}
                                 </th>
@@ -50,7 +50,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr ng-repeat="row in ltroom_data.H4">
+                            <tr ng-repeat="row in ltroom_data.H4[0].H5">
                                 <th data-toggle="tooltip" data-placement="top" title="{{row.Description}}">
                                     {{row.name}}
                                 </th>
@@ -62,5 +62,35 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="col-md-6">
+        <!--Graph start-->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary"> History Trends</h6>
+            </div>
+            <div class="card-body  di-widget-height-fix">
+                <canvas id="line" class="chart chart-line" chart-data="graph_data.dgroom.value"
+                chart-labels="graph_data.dgroom.label" chart-series="labels" 
+               >
+            </canvas>
+            </div>
+        </div>
+        <!--Graph end-->
+    </div>
+    <div class="col-md-6">
+        <!--Graph start-->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary"> History Trends</h6>
+            </div>
+            <div class="card-body  di-widget-height-fix">
+                <canvas id="line" class="chart chart-line" chart-data="graph_data.ltroom.value"
+                chart-labels="graph_data.ltroom.label" 
+               >
+            </canvas>
+            </div>
+        </div>
+        <!--Graph end-->
     </div>
 </div>
