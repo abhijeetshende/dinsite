@@ -1,4 +1,5 @@
 var app = angular.module("dataInsideApp", ["ui.router","datatables"]);
+var server_url = "http://localhost:3000";
 app.config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/home');
 

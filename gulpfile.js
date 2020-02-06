@@ -30,7 +30,9 @@ var scss_files = [
 var child_views_templates = [
   "index.html",
   "./child_views/**/*.html",
-  "./child_views/components/*.html"
+  "./child_views/**/*.json",
+  "./child_views/components/*.html",
+  "./child_views/components/*.json"
 ];
 var index_templates = ["index.html"];
 // BrowserSync
