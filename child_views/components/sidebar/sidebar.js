@@ -1,9 +1,11 @@
-app.controller('sidebarController', ['$scope', function ($scope) {
-    $scope.customer = {
-        name: 'Naomi',
-        address: '1600 Amphitheatre'
-    };
-    console.log("sidebar init");
+app.controller('sidebarController', ['$scope','sidebarService', function ($scope,sidebarService) {
+    
+        sidebarService.getSidebarInfo()
+        .then(function(res){
+            console.log(res.data);
+            $scope.sidebarinfo = res.data;
+        });
+        
 
 }])
     .directive('diSidebar', function () {
